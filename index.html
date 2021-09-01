@@ -27,15 +27,15 @@
     <h2 class="abt-title">About</h2>
     <p>
      <!-- Jump to navigationJump to search -->
-        In Ghana, an Outdooring (Ga: kpodziemo; Akan: abadinto) <br>
+        In Ghana, an Outdooring (Ga: kpodziemo; Akan: abadinto)
          is the traditional naming ceremony for infants. <br>
-          Traditionally this ceremony occurs eight days after <br>
+          Traditionally this ceremony occurs eight days after
            the child is born where parents bring their newborn "outdoors" <br>
-            for the first time and give the child a day name. Cultural beliefs <br>
+            for the first time and give the child a day name. Cultural beliefs
              dictated that after eight days, the infant was likely to survive <br>
-              and could be provided a name. In addition to the day name, <br>
+              and could be provided a name. In addition to the day name,
                Ghanaians frequently give children a name of an elder relative, <br>
-               either living or deceased. During the Outdooring, male infants <br>
+               either living or deceased. During the Outdooring, male infants
                 would be circumcised and female infants would have their ears pierced <br></p>
 
 
@@ -136,10 +136,56 @@ Saturday: Ama -->
             </tr>
             <tr>
                 <td>Saturday: Ama</td>
-            
+
             </table>
         </div>
         </div>
 </sectio>
+<section>
+    <br>   <section class="form" id="project">
+        <h1 class="title"><strong>Form</strong></h1>
+<p> Here is an application that takes a user's birthday
+    and calculates the day of the week they were
+    <br>
+    born and then depending on their gender it will output their Akan Name. <br> 
+    <h3>To get you Akan Name,ensure you fill the Form correctly; </h3>
+    <hr>
+
+<div class="container">
+    <p id="your-name">Your Akan Name Is;&nbsp;</p>
+    <form action="#" class="form">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 col-xs-3 day">
+                        <label for="day">Birth Day</label>
+                        <input type="text" maxlength="2" class="form-control" id="day" placeholder="DD"
+                            value="">
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3 month">
+                        <label for="month">Birth Month</label>
+                        <input type="text" maxlength="2" class="form-control" id="month" placeholder="MM"
+                            value="">
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3 year">
+                        <label for="month">Year</label>
+                        <input type="text" maxlength="4" class="form-control" id="year" placeholder="YY"
+                            value="">
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3 gender">
+                        <label for="gender">Gender</label>
+                        <select class="custom-select" id="gender" required>
+                            <option value="">Choose</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+<button id="button" type="button" class="btn btn-info" onclick="calc()">Get Your Name</button>
+    </div>
+</section>
 </body>
 </html>
