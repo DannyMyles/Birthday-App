@@ -97,10 +97,18 @@ html{
     border-left: 6px solid  rgb(84, 194, 238);
     background-color: rgb(84, 194, 238);
     /* display: flex; */
+    text-align: center;
+    justify-content: space-evenly;
   }
 .form-title{
-  display: flex;
-  color: rgb(141, 105, 63);
+  text-align: center;
+  justify-content: space-evenly;
+  color: rgb(194, 123, 42);
+}
+#alert{
+  color: olive;
+  font-style: italic;
+    font-size: medium;
 }
   #-name {
     color: rgb(250, 6, 108);
@@ -119,20 +127,20 @@ html{
       float: left;
       margin-right: 10px;
   }
-  input[type='submit'] { 
+  input[type='submit'] {
       float: left;
-      margin: 10px 0; 
+      margin: 10px 0;
       padding: 10px 40px;
       background-color: black;
-  } 
-  input[type='submit'], fieldset, textarea { 
-      border-radius: 5px; 
+  }
+  input[type='submit'], fieldset, textarea {
+      border-radius: 5px;
       background-color: black;
-  } 
-  
-  select { 
-      width: calc(100% - 4px); 
-      } 
+  }
+
+  select {
+      width: calc(100% - 4px);
+      }
   select {
     width: 162px;
   }
@@ -146,25 +154,25 @@ html{
       background-color: rgb(150, 119, 52);
       box-shadow: 10px 10px 5px #0c6d65;
   }
-  
+
   .contactBox p {
       margin-top: 10vh;
       font-size: 1.25rem;
   }
-  
+
   .contactBox .links-container {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
   }
-  
+
   .contactBox #profile-link, .contactBox .logo {
       text-decoration: none;
       color:  rgb(127, 128, 133);;
       border: 1px solid  rgb(127, 128, 133);
       padding: 10px;
   }
-  
+
   .contactBox #profile-link:hover, .contactBox .logo:hover {
       background-color: white;
   }
