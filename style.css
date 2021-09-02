@@ -54,7 +54,7 @@ html{
       justify-content: center;
       align-items: center;
       text-align: center;
-      color: rgb(250, 6, 108);
+      color: rgba(6, 250, 99, 0.966);
       font-size: 2rem;
       margin: -15vh 5vw 10vh 5vw;
       font-family: Arial, Helvetica, sans-serif;
@@ -62,7 +62,14 @@ html{
       cursor: default;
       background-image: url("https://i.pinimg.com/originals/5b/dc/6c/5bdc6ce2d901c3d5f2c2142c5a938672.jpg");
   }
-  
+
+  .header-par{
+    display: flex;
+    font-size: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+  }
   /* About  section styles */
   #abt-sec{
       min-height: 100vh;
@@ -77,6 +84,7 @@ html{
   .abt-title{
     text-align: center;
     text-decoration:salmon;
+    color: rgb(163, 94, 62);
   }
 
   .form {
