@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap-grid.min.css">
 </head>
 <body>
-<nav>
+<nav id="navbar">
     <ul>
         <li><a href="#home" class="scroll active" id="home-link">Home</a></li>
         <li><a href="#about" class="scroll" id="about-link">About</a></li>
@@ -152,7 +152,7 @@ Saturday: Ama -->
     <hr>
 
 <div class="container">
-    <p id="your-name">Get your Akan-Name;&nbsp;</p>
+    <p id="name">Get your Akan-Name;&nbsp;</p>
     <form action="#" class="form">
         <div class="panel panel-default">
             <div class="panel-heading">
@@ -178,14 +178,31 @@ Saturday: Ama -->
                             <option value="">Choose</option>
                             <option value="male">Male</option>
                             <option value="female">Female</option>
+                            <option value="Others">Female</option>
                         </select>
                     </div>
                 </div>
             </div>
         </div>
     </form>
-<button id="button" type="button" class="btn btn-info" onclick="calc()">Get Your Name</button>
-    </div>
+ <button id="button" type="button" class="btn btn-info" onclick="calc()">Get Your Name</button>
+</div>
 </section>
+<br>
+ <!-- start contact form -->
+<section  class="contactBox" id="contact">
+<p>For more info:</p>
+<div class="link-container">
+</div>
+<a href="mailto:https://mail.google.com/mail/u/0/#inbox">Email</a>
+</section>
+ <footer id="footer">
+    <div class="footer-content-right">
+        <a href="https://github.com/DannyMyles"><img src="images/github.png" class="icon-style" alt="Github icon"></a>
+        <a href="https://www.twitter.com/@DannyMyles9"><img src="images/twitter.jpg" class="icon-style" alt="Twitter icon"></a>
+        <a href="https://www.gmail.com"><img src="images/gmail.jpg" class="icon-style" alt="Emailicon"></a>
+    </div>
+</footer>
+<script src="/main.js"></script>
 </body>
 </html>
