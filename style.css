@@ -36,14 +36,14 @@ html{
       display: flex;
       justify-content: flex-end;
   }
-  
+
   #navbar ul li a {
       display: block;
       padding: 15px;
       margin-right: 2vw;
       text-decoration: none;
   }
-  
+
   #navbar ul li a.active {
       color:rgb(216, 133, 25);
   }
@@ -115,7 +115,7 @@ html{
     text-align: center;
     box-shadow: 10px 10px 5px #036e72;
   }
-  
+
   input,
   select {
     float: right;
