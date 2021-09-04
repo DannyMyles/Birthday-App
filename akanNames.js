@@ -3,6 +3,15 @@ const akanNames = [
         gender:'Male',
         dayOfBirth: 'Sunday',
         name:'Kwasi'
+    }, {
+        gender:'Male',
+        dayOfBirth: 'Monday',
+        name:'Kwado'
+    },
+    {
+        gender:'Male',
+        dayOfBirth: 'Tuesday',
+        name:'Kwabena'
     },
     {
         gender:'Male',
@@ -23,32 +32,35 @@ const akanNames = [
         gender:'Male',
         dayOfBirth: 'Saturday',
         name:'Kwame'
-    },{
+    },
+
+
+    {
         gender:'Female',
         dayOfBirth: 'Sunday',
         name:'Akosua'
     }, {
         gender:'Female',
-        dayOfBirth: 'Wednesday',
+        dayOfBirth: 'Monday',
         name:'Adwoa'
     },
     {
         gender:'Female',
-        dayOfBirth: 'Thursday',
+        dayOfBirth: 'Tuesday',
         name:'Abenaa'
     },
     {
         gender:'Female',
-        dayOfBirth: 'Friday',
+        dayOfBirth: 'Wednesday',
         name:'Akua'
     },
     {
         gender:'Female',
-        dayOfBirth: 'Saturday',
+        dayOfBirth: 'Thursday',
         name:'Yaa'
     },{
         gender:'Female',
-        dayOfBirth: 'Saturday',
+        dayOfBirth: 'Friday',
         name:'Afua'
     },{
         gender:'Female',
