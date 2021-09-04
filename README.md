@@ -29,9 +29,12 @@ We will use Akan names which are derived from Ghanian culture. Frequently in Gha
 +  ["https://github.com/DannyMyles" ]
 +  ["https://mail.google.com/mail/u/0/#inbox" ]
 
-### **Setup instructions**
-
+### **Setup/Installation Requirements**
+Git VisiualStudio code GitHub
 Includes any scripts that need to be run if necessary.
+
+Known Bugs
+The formula that was provided was not working.
 
 ##  **BDD**
 
