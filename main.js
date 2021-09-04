@@ -1,6 +1,4 @@
 
-/* const dateOfBirthElement = document.getElementById('date');
-const genderElement = document.getElementById('gender'); */
 const akansForm = document.getElementById('akansForm');
 const daysOfTheWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 const calcBtn = document.getElementById('calculateButton');
