@@ -42,7 +42,7 @@ BDD(Behavior Driven Development) integration plugin for Javascript
 
 ## **Technologies used.**
 
-CSS,HTML and Bootsrap - Frontend
+CSS,HTML and Bootsrap - Front-end
 
 Javascript-Backend
 
