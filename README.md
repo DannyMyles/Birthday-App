@@ -36,9 +36,12 @@ Includes any scripts that need to be run if necessary.
 Known Bugs
 The formula that was provided was not working.
 
-##  **BDD**
-
-BDD(Behavior Driven Development) integration plugin for Javascript
+# Behaviour Driven Development (BDD) :office:
+* After loading the website the user can navigate to diffrent pages from the navbar.
+* In the Get Akan Name section the user :-
+ * Will fill in - Full Name - Date of Birth - Month of Birth -Year of Birth and select the gender
+ * Then click **Get AKANAME** button below the form.
+ * The Akan Name should be displayed on the right side of the screen.
 
 ## **Technologies used.**
 
