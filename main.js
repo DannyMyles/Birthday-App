@@ -5,7 +5,13 @@ const calcBtn = document.getElementById('calculateButton');
 const result = document.getElementById('result');
 
 function calculateDayOfBirth(birthDate, gender){
-
+    /**
+     * hapa pia check if birthDate and gender are defined
+     * if(!birthDate || !gender){
+     *  return false;
+     * }
+     *  */
+    
     const dateOfBirth = new Date(birthDate);
     const dayOfTheWeek = dateOfBirth.getDay();
 
