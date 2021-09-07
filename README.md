@@ -34,7 +34,7 @@ Git VisiualStudio code GitHub
 Includes any scripts that need to be run if necessary.
 
 Known Bugs
-The formula that was provided was not working.
+The formula that was provided was not working for me at first but I managed.
 
 # Behaviour Driven Development (BDD) :office:
 * After loading the website the user can navigate to diffrent pages from the navbar.
@@ -56,5 +56,5 @@ Javascript-Backend
 
 ## **License and Copyright information.**
 
-Copyright(c) 2020 Danny Myles.
+Copyright(c) 2021 Danny Myles.
  Licensed under the MIT license.
